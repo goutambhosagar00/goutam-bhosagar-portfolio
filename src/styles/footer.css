@@ -1,0 +1,22 @@
+.footer {
+  padding: 40px 8%;
+  text-align: center;
+  background: radial-gradient(circle at top, #0b1a3a, #020617);
+}
+
+.footer-line {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(148,163,184,0.4),
+    transparent
+  );
+  margin-bottom: 18px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #94a3b8;
+}

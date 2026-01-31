@@ -1,0 +1,92 @@
+.mentor {
+  padding: 120px 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.mentor-card {
+  max-width: 900px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(30,41,59,0.75),
+    rgba(15,23,42,0.9)
+  );
+  border-radius: 24px;
+  padding: 50px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+}
+
+.mentor-label {
+  display: inline-block;
+  font-size: 13px;
+  color: #60a5fa;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.mentor-card h2 {
+  font-size: 36px;
+  margin-bottom: 6px;
+}
+
+.mentor-card h4 {
+  font-size: 16px;
+  color: #cbd5f5;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 20px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+}
+
+.mentor-tags {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.mentor-tags span {
+  background: rgba(15,23,42,0.9);
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 1024px) {
+  .mentor-card {
+    padding: 40px;
+  }
+
+  .mentor-card h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 640px) {
+  .mentor {
+    padding: 80px 5%;
+  }
+
+  .mentor-card {
+    padding: 28px;
+  }
+
+  .mentor-card h2 {
+    font-size: 26px;
+  }
+
+  blockquote {
+    font-size: 15px;
+  }
+
+  .mentor-tags {
+    flex-direction: column;
+  }
+}

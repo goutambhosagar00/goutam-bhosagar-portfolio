@@ -1,0 +1,119 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #070f4f, #09091d);;
+  backdrop-filter: blur(12px);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.dot {
+  color: #38bdf8;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  color: #cbd5f5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #60a5fa;
+}
+
+.hire-btn {
+  padding: 10px 20px;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top, #0b1a3a, #020617);
+  transform: translateY(-100%);
+  transition: transform 0.4s ease;
+  z-index: 2000;
+  padding: 30px 8%;
+}
+
+.mobile-menu.show {
+  transform: translateY(0);
+}
+
+.mobile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.mobile-nav a {
+  font-size: 22px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  color: #38bdf8;
+}
+
+.socials {
+  margin-top: auto;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+/* Responsive Rules */
+.desktop {
+  display: flex;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
