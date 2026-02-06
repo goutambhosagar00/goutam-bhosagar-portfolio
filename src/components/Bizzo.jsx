@@ -24,7 +24,7 @@ export default function Bizzo() {
           <li>✔ Integrated CRM System</li>
         </ul>
 
-        <button className="waitlist-btn">Join Waitlist →</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXhrKtdtdeB5aGu-8GY5AZXLBB4cJrhi41YmeaAhBBVMki5Q/viewform" className="waitlist-btn">Join Waitlist →</a>
       </div>
 
       <div className="bizzo-right">

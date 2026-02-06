@@ -18,7 +18,7 @@ export default function Education() {
               <span className="year">2023 – 2026</span>
             </div>
 
-            <h4>Technology Institute</h4>
+            <h4>Bhubaneswar Engineering College(BEC) Affiliated by BPUT</h4>
             <p>
               Pursuing Bachelor of Technology with a focus on advanced
               computing, algorithms, and software engineering.
@@ -37,7 +37,7 @@ export default function Education() {
               <span className="year">2020 – 2023</span>
             </div>
 
-            <h4>Polytechnic College</h4>
+            <h4>Vikash Polytechnic Affiliated by SCTE&VT</h4>
             <p>
               Completed diploma with distinction. Learned fundamentals of
               programming, networking, and database management.

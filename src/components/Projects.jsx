@@ -30,7 +30,7 @@ export default function Projects() {
               <span>PostgreSQL</span>
             </div>
 
-            <a className="demo-btn" href="#">Live Demo</a>
+            <a className="demo-btn" href="https://github.com/goutambhosagar00">Live Demo</a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ export default function Projects() {
               <span>Stripe</span>
             </div>
 
-            <a className="demo-btn" href="#">Live Demo</a>
+            <a className="demo-btn" href="https://github.com/goutambhosagar00">Live Demo</a>
           </div>
         </div>
 
@@ -93,7 +93,7 @@ export default function Projects() {
               <span>Tailwind</span>
             </div>
 
-            <a className="demo-btn" href="#">Live Demo</a>
+            <a className="demo-btn" href="https://github.com/goutambhosagar00">Live Demo</a>
           </div>
         </div>
       </div>

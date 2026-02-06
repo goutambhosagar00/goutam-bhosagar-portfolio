@@ -18,7 +18,7 @@ export default function About() {
         <p>
           I am Goutam Bhosagar, a Full-Stack Developer with a passion for building
           scalable web and mobile applications. With a background in both
-          development and digital marketing, I understand what makes a product
+          development, I understand what makes a product
           successful—from code quality to user acquisition.
         </p>
 
