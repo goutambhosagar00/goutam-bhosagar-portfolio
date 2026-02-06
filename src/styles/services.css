@@ -1,6 +1,9 @@
 .services {
   padding: 120px 8%;
   text-align: center;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .services-header h2 {
@@ -12,6 +15,7 @@
 .services-header p {
   color: #cbd5f5;
   margin-bottom: 60px;
+  
 }
 
 .services-grid {

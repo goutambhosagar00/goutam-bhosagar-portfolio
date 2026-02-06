@@ -55,7 +55,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Project 3 */}
+        {/* Project 3
         <div className="project-card">
           <img src={creditbuddy} alt="CreditBuddy" />
           <div className="project-content">
@@ -74,7 +74,7 @@ export default function Projects() {
 
             <a className="demo-btn" href="#">Live Demo</a>
           </div>
-        </div>
+        </div> */}
 
         {/* Project 4 */}
         <div className="project-card">

@@ -17,24 +17,24 @@ export default function Contact() {
 
           <div className="contact-info">
             <div>
-              <span>📧 Email Me</span>
+              <span>📧 Email Me: </span>
               <strong>goutambhosagar08@gmail.com</strong>
             </div>
 
             <div>
-              <span>📞 Call Me</span>
+              <span>📞 Call Me: </span>
               <strong>+91 63718 64875</strong>
             </div>
 
             <div>
-              <span>📍 Location</span>
-              <strong>India</strong>
+              <span>📍 Location: </span>
+              <strong>India, Bhubaneswar Odisha</strong>
             </div>
           </div>
 
           <div className="socials">
-            <a href="#" aria-label="GitHub">🐙</a>
-            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="https://github.com/goutambhosagar00" aria-label="GitHub">🐙</a>
+            <a href="https://www.linkedin.com/in/goutam-bhosagar-91559a301/" aria-label="LinkedIn">in</a>
             <a href="#" aria-label="Twitter">🐦</a>
           </div>
         </div>

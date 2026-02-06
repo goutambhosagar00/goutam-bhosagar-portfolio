@@ -16,3 +16,6 @@ p {
   text-align: justify;
   hyphens: auto;
 }
+a {
+  text-decoration: none;
+}

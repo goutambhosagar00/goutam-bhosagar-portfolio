@@ -21,7 +21,7 @@ export default function Header() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <button className="hire-btn desktop">Hire Me</button>
+        <a href="https://www.linkedin.com/in/goutam-bhosagar-91559a301/" className="hire-btn desktop">Hire Me</a>
 
         {/* Mobile Icon */}
         <div className="menu-icon mobile" onClick={() => setOpen(true)}>
@@ -50,9 +50,9 @@ export default function Header() {
         </nav>
 
         <div className="socials">
-          <span>🐙</span>
-          <span>in</span>
-          <span>🐦</span>
+          <a href="https://github.com/goutambhosagar00" aria-label="GitHub">🐙</a>
+            <a href="https://www.linkedin.com/in/goutam-bhosagar-91559a301/" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">🐦</a>
         </div>
       </div>
     </>

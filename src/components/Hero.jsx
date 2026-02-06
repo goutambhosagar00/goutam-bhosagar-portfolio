@@ -20,8 +20,8 @@ export default function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button className="btn primary">View Projects →</button>
-          <button className="btn secondary">Hire Me</button>
+          <a href="#projects"  className="btn primary">View Projects →</a>
+          <a href="https://www.linkedin.com/in/goutam-bhosagar-91559a301/" className="btn secondary">Hire Me</a>
         </div>
       </div>
 
